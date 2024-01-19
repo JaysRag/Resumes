@@ -1,0 +1,221 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\hypersetup{pdfborder = 0 0 0}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Jayasurya (Jay) Ragupathi} \\ \vspace{1pt}
+    \small
+    \raisebox{-0.1\height}\faPhone\ 765-701-9050
+    \href{mailto:youremail@gmail.com}{\faEnvelope\ jragupati@gmail.com} ~ 
+    \href{mailto:youremail@gmail.com}{\faEnvelope\ jayasurya.jazz@gmail.com} ~ 
+    \href{https://linkedin.com/in/}{\faLinkedin\ jayasurya-r}  ~
+    \href{https://github.com/}{\faGithub\ JaysRag}
+    \vspace{-8pt}
+\end{center}
+\section{Profile - Data Scientist}
+\small{Statistical and socially responsible data scientist with 3+ years of experience driving more than \textbf{\$1M} growth for Fortune 500 companies and empowering federal policymakers to uplift 1.5M veterans.
+Agile Data Analyst with experience building Analytical products for internal and external consumption(E.g. Dashboards, automatic analysis, algorithms)
+}
+\vspace{-12pt}
+% adjust vscape based on the space you want to leave between each section.
+
+%-----------Technical Skilss-----------
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.1in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, R, PySpark} \\
+     \textbf{Tools}{: Tableau, Advanced Excel, CPLEX, AWS SageMaker, Dataiku, Kubeflow, Databricks, Jupyter, LLMs, Tensorflow  machine learning frameworks, Keras, ScikitLearn, Kubernetes, Microsoft SQL Server, SAS, Model Monitoring tools, Kubeflow, MLFlow.}\\
+     \textbf{Data Modeling Skills}{: statistics, data analytics, forecasting, predictive analytics, data mining., forecasting, regression Analysis, model testing, logistic regression, machine learning, neural networks, optimization, SVM, NLP,  Model Training, Model Deployment, Model Registry,} \\
+     
+    }}
+ \end{itemize}
+ \vspace{-20pt}
+
+%-----------EXPERIENCE-----------
+
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Military Family Research Institute}{July 2023 -  Present}
+      {Data Scientist}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem {\textbf{Empowered federal policymakers} with data-driven visualizations, positively impacting \textbf{1.5M} military families.}
+        \resumeItem {Automated end-to-end workflows using \textbf{Python}, \textbf{Tableau} and \textbf{HTML} to create snapshots on military family }
+        \resumeItem {Created impactful data visualization dashboards and reports for complex data, \textbf{illuminating federal policy impact} on military families- Measuring Communities}
+    \resumeItemListEnd
+      
+    \resumeSubheading
+      {FedEx Inc.}{May 2022 - August 2022}
+      {Data Scientist - Internship}{Memphis, TN}
+      \resumeItemListStart
+        \resumeItem {Implemented \textbf{XGBoost} with extensive feature engineering using \textbf{Python}, \textbf{SAS} and \textbf{Databricks} to \textbf{enhance trailer requirements forecasts}, achieving \textbf{39\% accuracy improvement}.}
+        \resumeItem {Leveraged \textbf{deep reinforcement learning models} to \textbf{innovate four customized use cases}, aligning with business challenges and model requirements.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Tredence Inc.}{August 2019 - July 2021}
+      {Analyst}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem {Data Quality Management: Developed, optimized, and tested \textbf{language models like BERT} using \textbf{PyTorch} and \textbf{TensorFlow} for a data quality product \textbf{generating revenues worth \$150K}}
+        \resumeItem {\textbf{EDA}: Performed extensive \textbf{data wrangling}, \textbf{data transformations}, \textbf{statistical modeling} and \textbf{feature engineering} using \textbf{Python} and \textbf{AWS Sagemaker} on retail data to \textbf{save data quality costs by 3X}.}
+        \resumeItem {Developed data engineering ML pipelines in \textbf{Kubeflow} and improved the runtime by \textbf{10X}}
+        \resumeItem{\textbf{Measured and tracked analytics improvements} against key performance indicators for MLOps products}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+\vspace{-18pt}
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+\vspace{-6pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Personalized Amazon Product Review Summarizer} $|$ \emph{Python, Langchain, LLMs}}{July - September Year 2023}
+          \resumeItemListStart
+            \resumeItem{ Developed a web-app to summarize and create customized ratings on products based on user’s preferences. }
+            \resumeItem{Used GPT 3.5 API to analyze reviews and an analytic layer to calculate custom scores. Accelerates eCommerce shopping experience by 10X using LLM.}
+          \resumeItemListEnd
+          \vspace{-14pt}
+    \resumeProjectHeading
+          {\textbf{Cross-sell product recommendation system: } $|$ \emph{Python, Tensorflow, Pytorch}}{April - May 2020}
+          \resumeItemListStart
+            \resumeItem{Built a cross-sell recommendation system for a networking hardware company using collaborative filtering technique and cosine similarity in TensorFlow. }
+            \resumeItem{Showed a 23\% increase in cross-selling sales in 3 quarters of sales.}
+          \resumeItemListEnd
+          \vspace{-14pt}
+    \resumeProjectHeading
+          {\textbf{Performance comparison of drones for last mile delivery: } $|$ \emph{Python, CPLEX}}{August 2022 - May 2023}
+          \resumeItemListStart
+            \resumeItem{ Developed a truck-drone vehicle routing problem to compare the performance of hydrogen and battery drones using Amazon’s last-mile delivery data. }
+            \resumeItem{Improved the average delivery time by 28.45\% by usage of fuel cell drones}
+          \resumeItemListEnd
+          \vspace{-14pt}
+    \resumeSubHeadingListEnd
+\vspace{-3pt}
+
+
+%------------Publications-----------
+
+\section{Leadership and Collaboration}
+\vspace{-3pt}
+    \resumeItemListStart
+        \resumeItem{Collaborates: Headed a team of 3 to build a BERT-based data cleaning classifier for eCommerce data and accomplished the revenue goal of \$120K for the team. Won “Pat on the Back” award for customizing the solution for the customer.}
+        \resumeItem{Mentored and collaborated with new grad interns and helped them gain domain and technical expertise.}
+        \resumeItem{Served as scrum master, planned sprints by adhering to agile best practices, maintained JIRA boards}
+    \resumeItemListEnd
+\vspace{-16pt}
+
+\end{document}
+
